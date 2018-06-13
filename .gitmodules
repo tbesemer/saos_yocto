@@ -1,0 +1,12 @@
+[submodule "meta/meta-xilinx"]
+	path = meta/meta-xilinx
+	url = https://github.com/Xilinx/meta-xilinx.git
+	branch = rel-v2017.4
+[submodule "meta/meta-openembedded"]
+	path = meta/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = morty
+[submodule "meta/poky"]
+	path = meta/poky
+	url = git://git.yoctoproject.org/poky.git
+	branch = morty
