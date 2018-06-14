@@ -14,10 +14,10 @@ cd $OS_YOCTO_CONTAINER_ROOT/meta/poky/
 
 . ./oe-init-build-env
 
-bitbake core-image-minimal
+bitbake core-image-minimal -c populate_sdk
 if [ $? -ne 0 ]
 then
-    echo "bitbake core-image-minimal FAILED"
+    echo "bitbake core-image-minimal -c populate_sdk FAILED"
     exit 1
 fi
 
