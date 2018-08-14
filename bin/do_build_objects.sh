@@ -22,6 +22,8 @@ OBJECT_DIR=$OS_YOCTO_CONTAINER_ROOT/meta/poky/build/tmp/deploy/images/$MACHINE
 
 cp -p $OBJECT_DIR/core-image-minimal-$MACHINE.tar.gz  $OS_YOCTO_CONTAINER_ROOT/deploy/rootfs.tar.gz
 cp -p $OBJECT_DIR/core-image-minimal-$MACHINE.jffs2  $OS_YOCTO_CONTAINER_ROOT/deploy/rootfs.jffs2
+cp -p $OBJECT_DIR/core-image-minimal-$MACHINE.cpio.gz.u-boot  $OS_YOCTO_CONTAINER_ROOT/deploy/rootfs.cpio.gz.u-boot
+cp -p $OBJECT_DIR/core-image-minimal-$MACHINE.cpio.gz  $OS_YOCTO_CONTAINER_ROOT/deploy/rootfs.cpio.gz
 
 exit 0
 

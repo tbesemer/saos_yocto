@@ -28,4 +28,4 @@ PACKAGECONFIG_append_pn-nativesdk-qemu = " sdl"
 
 CONF_VERSION = "1"
 
-IMAGE_INSTALL_append = " python-core python-simplejson libconfig mtd-utils "
+IMAGE_INSTALL_append = " python-core python-simplejson libconfig mtd-utils openssh i2c-tools "
