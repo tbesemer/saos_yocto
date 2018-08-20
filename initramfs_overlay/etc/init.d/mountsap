@@ -1,0 +1,7 @@
+#!/bin/sh
+
+mkdir -p /home/root/tbesemer/cs
+mkdir -p /home/root/njacobson/cs
+
+mount -o nolock 192.168.124.24:/home/tbesemer/cs /home/root/tbesemer/cs
+mount -o nolock 192.168.124.24:/home/njacobson/cs /home/root/njacobson/cs
